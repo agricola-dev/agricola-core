@@ -1027,7 +1027,7 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   },
   'pest_damage': {
     AppLanguage.english: 'Pest Damage',
-    AppLanguage.setswana: 'Tshenyego ya Dikgokgo',
+    AppLanguage.setswana: 'Tshenyego diji',
   },
   'spoilage': {
     AppLanguage.english: 'Spoilage',
@@ -1401,7 +1401,7 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   },
   'total_amount': {
     AppLanguage.english: 'Total Amount',
-    AppLanguage.setswana: 'Palogotlhe',
+    AppLanguage.setswana: 'Paloyotlhe',
   },
   'purchase_date': {
     AppLanguage.english: 'Purchase Date',
@@ -1844,7 +1844,7 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   },
   'total_field_size': {
     AppLanguage.english: 'Total Field Size',
-    AppLanguage.setswana: 'Bogolo Jotlhe jwa Masimo',
+    AppLanguage.setswana: 'Bogolo jwa Masimo',
   },
   'total_harvests': {
     AppLanguage.english: 'Total Harvests',
@@ -1993,18 +1993,6 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.setswana: 'E dirilwe ka',
   },
   'seller': {AppLanguage.english: 'Seller', AppLanguage.setswana: 'Morekisi'},
-  'price_per_unit': {
-    AppLanguage.english: 'Price per Unit',
-    AppLanguage.setswana: 'Tlhwatlhwa ka Yuniti',
-  },
-  'total_amount': {
-    AppLanguage.english: 'Total Amount',
-    AppLanguage.setswana: 'Palogotlhe',
-  },
-  'purchase_date': {
-    AppLanguage.english: 'Purchase Date',
-    AppLanguage.setswana: 'Letsatsi la Theko',
-  },
   'order_id': {
     AppLanguage.english: 'Order ID',
     AppLanguage.setswana: 'Nomoro ya Odara',
@@ -2092,10 +2080,6 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Enter your email address first',
     AppLanguage.setswana: 'Kwala aterese ya imeile ya gago pele',
   },
-  'profile': {
-    AppLanguage.english: 'Profile',
-    AppLanguage.setswana: 'Porofaele',
-  },
 
   // Web Dashboard — Phase 2: Dashboard Stats
   'dashboard_subtitle': {
@@ -2141,14 +2125,6 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   'unique_suppliers': {
     AppLanguage.english: 'Unique Suppliers',
     AppLanguage.setswana: 'Barekisi ba ba Farologaneng',
-  },
-  'active_crops': {
-    AppLanguage.english: 'Active Crops',
-    AppLanguage.setswana: 'Dijalo tse di Dirang',
-  },
-  'total_field_size': {
-    AppLanguage.english: 'Total Field Size',
-    AppLanguage.setswana: 'Bogolo jwa Masimo',
   },
   'revenue_overview': {
     AppLanguage.english: 'Revenue vs Purchases',
@@ -2262,10 +2238,6 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   },
 
   // Web Dashboard — Phase 5: Orders & Purchases
-  'orders': {
-    AppLanguage.english: 'Orders',
-    AppLanguage.setswana: 'Di-otara',
-  },
   'no_orders': {
     AppLanguage.english: 'No orders yet',
     AppLanguage.setswana: 'Ga go na di-otara',
@@ -2293,10 +2265,6 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   'order_detail': {
     AppLanguage.english: 'Order Details',
     AppLanguage.setswana: 'Dintlha tsa Otara',
-  },
-  'order_id': {
-    AppLanguage.english: 'Order ID',
-    AppLanguage.setswana: 'ID ya Otara',
   },
   'buyer': {
     AppLanguage.english: 'Buyer',
@@ -2366,14 +2334,6 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'All statuses',
     AppLanguage.setswana: 'Maemo otlhe',
   },
-  'purchases': {
-    AppLanguage.english: 'Purchases',
-    AppLanguage.setswana: 'Direko',
-  },
-  'no_purchases': {
-    AppLanguage.english: 'No purchases yet',
-    AppLanguage.setswana: 'Ga go na direko',
-  },
   'no_purchases_hint': {
     AppLanguage.english: 'Record your first purchase to start tracking',
     AppLanguage.setswana: 'Kwala theko ya gago ya ntlha go simolola go latela',
@@ -2410,22 +2370,6 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Purchase deleted successfully',
     AppLanguage.setswana: 'Theko e tlositswe ka katlego',
   },
-  'seller_name': {
-    AppLanguage.english: 'Seller Name',
-    AppLanguage.setswana: 'Leina la Morekisi',
-  },
-  'price_per_unit': {
-    AppLanguage.english: 'Price per Unit',
-    AppLanguage.setswana: 'Tlhwatlhwa ka Sengwe',
-  },
-  'purchase_date': {
-    AppLanguage.english: 'Purchase Date',
-    AppLanguage.setswana: 'Letlha la Theko',
-  },
-  'total_amount': {
-    AppLanguage.english: 'Total Amount',
-    AppLanguage.setswana: 'Paloyotlhe',
-  },
 
   // Web Dashboard — Phase 6.5: Purchase Summary Stats
   'total_spend': {
@@ -2451,6 +2395,126 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   'purchases_count': {
     AppLanguage.english: 'purchases',
     AppLanguage.setswana: 'ditheko',
+  },
+
+  // Web Dashboard — Phase 7: Crops & Harvests Management
+  'no_crops': {
+    AppLanguage.english: 'No crops yet',
+    AppLanguage.setswana: 'Ga go na dijalo',
+  },
+  'add_crop_hint': {
+    AppLanguage.english: 'Start by adding your first crop',
+    AppLanguage.setswana: 'Simolola ka go oketsa sejalo sa gago sa ntlha',
+  },
+  'crop_added': {
+    AppLanguage.english: 'Crop added successfully',
+    AppLanguage.setswana: 'Sejalo se oketsitswe ka katlego',
+  },
+  'crop_updated': {
+    AppLanguage.english: 'Crop updated successfully',
+    AppLanguage.setswana: 'Sejalo se fetoletswe ka katlego',
+  },
+  'crop_deleted': {
+    AppLanguage.english: 'Crop deleted successfully',
+    AppLanguage.setswana: 'Sejalo se tlositswe ka katlego',
+  },
+  'delete_crop_confirm': {
+    AppLanguage.english: 'Are you sure you want to delete this crop? This will also remove all associated harvests.',
+    AppLanguage.setswana: 'A o itshupa gore o batla go tlosa sejalo se? Se se tla tlosa le dithobo tsotlhe tse di amanang.',
+  },
+  'error_loading_crops': {
+    AppLanguage.english: 'Failed to load crops',
+    AppLanguage.setswana: 'Go paletse go laisa dijalo',
+  },
+  'select_crop_to_view_harvests': {
+    AppLanguage.english: 'Select a crop to view its harvests',
+    AppLanguage.setswana: 'Tlhopha sejalo go bona dithobo tsa sona',
+  },
+  'no_harvests': {
+    AppLanguage.english: 'No harvests recorded yet',
+    AppLanguage.setswana: 'Ga go na dithobo tse di kwadilweng',
+  },
+  'record_harvest_hint': {
+    AppLanguage.english: 'Record your first harvest for this crop',
+    AppLanguage.setswana: 'Kwala thobo ya gago ya ntlha ya sejalo se',
+  },
+  'harvest_recorded': {
+    AppLanguage.english: 'Harvest recorded successfully',
+    AppLanguage.setswana: 'Thobo e kwadilwe ka katlego',
+  },
+  'harvest_deleted': {
+    AppLanguage.english: 'Harvest deleted successfully',
+    AppLanguage.setswana: 'Thobo e tlositswe ka katlego',
+  },
+  'delete_harvest_confirm': {
+    AppLanguage.english: 'Are you sure you want to delete this harvest record?',
+    AppLanguage.setswana: 'A o itshupa gore o batla go tlosa rekoto e ya thobo?',
+  },
+  'error_loading_harvests': {
+    AppLanguage.english: 'Failed to load harvests',
+    AppLanguage.setswana: 'Go paletse go laisa dithobo',
+  },
+  'none': {
+    AppLanguage.english: 'None',
+    AppLanguage.setswana: 'Sepe',
+  },
+  'acres': {
+    AppLanguage.english: 'Acres',
+    AppLanguage.setswana: 'Di-eka',
+  },
+  'square_metres': {
+    AppLanguage.english: 'Square Metres',
+    AppLanguage.setswana: 'Dimetara tse di Sekwere',
+  },
+  'disease': {
+    AppLanguage.english: 'Disease',
+    AppLanguage.setswana: 'Bolwetse',
+  },
+  'drought': {
+    AppLanguage.english: 'Drought',
+    AppLanguage.setswana: 'Komelelo',
+  },
+  'flooding': {
+    AppLanguage.english: 'Flooding',
+    AppLanguage.setswana: 'Morwalela',
+  },
+
+  // Web Dashboard — Phase 8: Profile & Settings
+  'edit_profile': {
+    AppLanguage.english: 'Edit Profile',
+    AppLanguage.setswana: 'Fetola Profaele',
+  },
+  'complete_profile': {
+    AppLanguage.english: 'Complete Profile',
+    AppLanguage.setswana: 'Feleletsa Profaele',
+  },
+  'complete_profile_hint': {
+    AppLanguage.english: 'Add your details to get the most out of Agricola.',
+    AppLanguage.setswana: 'Tsenya dintlha tsa gago go dirisa Agricola botoka.',
+  },
+  'profile_updated': {
+    AppLanguage.english: 'Profile updated successfully',
+    AppLanguage.setswana: 'Profaele e ntshafaditswe',
+  },
+  'village': {
+    AppLanguage.english: 'Village',
+    AppLanguage.setswana: 'Motse',
+  },
+  'merchant_type': {
+    AppLanguage.english: 'Merchant Type',
+    AppLanguage.setswana: 'Mofuta wa Morekisi',
+  },
+  'products_offered': {
+    AppLanguage.english: 'Products Offered',
+    AppLanguage.setswana: 'Dithoto tse di Rekiswang',
+  },
+  'danger_zone': {
+    AppLanguage.english: 'Danger Zone',
+    AppLanguage.setswana: 'Karolo e e Kotsi',
+  },
+  'type_email_to_confirm': {
+    AppLanguage.english: 'Type your email to confirm:',
+    AppLanguage.setswana: 'Kwala imeile ya gago go netefatsa:',
   },
 };
 
