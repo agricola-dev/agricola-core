@@ -2062,6 +2062,396 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Region',
     AppLanguage.setswana: 'Kgaolo',
   },
+
+  // Web Dashboard
+  'harvests': {
+    AppLanguage.english: 'Harvests',
+    AppLanguage.setswana: 'Dithobo',
+  },
+  'forgot_password': {
+    AppLanguage.english: 'Forgot password?',
+    AppLanguage.setswana: 'O lebetse phasewete?',
+  },
+  'sign_in_with_google': {
+    AppLanguage.english: 'Sign in with Google',
+    AppLanguage.setswana: 'Tsena ka Google',
+  },
+  'email_required': {
+    AppLanguage.english: 'Email is required',
+    AppLanguage.setswana: 'Imeile e a tlhokega',
+  },
+  'password_required': {
+    AppLanguage.english: 'Password is required',
+    AppLanguage.setswana: 'Phasewete e a tlhokega',
+  },
+  'password_reset_sent': {
+    AppLanguage.english: 'Password reset email sent',
+    AppLanguage.setswana: 'Imeile ya go fetola phasewete e rometswe',
+  },
+  'enter_email_for_reset': {
+    AppLanguage.english: 'Enter your email address first',
+    AppLanguage.setswana: 'Kwala aterese ya imeile ya gago pele',
+  },
+  'profile': {
+    AppLanguage.english: 'Profile',
+    AppLanguage.setswana: 'Porofaele',
+  },
+
+  // Web Dashboard — Phase 2: Dashboard Stats
+  'dashboard_subtitle': {
+    AppLanguage.english: 'Overview of your activity',
+    AppLanguage.setswana: 'Tshobokanyo ya ditiro tsa gago',
+  },
+  'week': {
+    AppLanguage.english: 'Week',
+    AppLanguage.setswana: 'Beke',
+  },
+  'month': {
+    AppLanguage.english: 'Month',
+    AppLanguage.setswana: 'Kgwedi',
+  },
+  'year': {
+    AppLanguage.english: 'Year',
+    AppLanguage.setswana: 'Ngwaga',
+  },
+  'all_time': {
+    AppLanguage.english: 'All Time',
+    AppLanguage.setswana: 'Nako Yotlhe',
+  },
+  'total': {
+    AppLanguage.english: 'Total',
+    AppLanguage.setswana: 'Yotlhe',
+  },
+  'revenue': {
+    AppLanguage.english: 'Revenue',
+    AppLanguage.setswana: 'Lotseno',
+  },
+  'period_revenue': {
+    AppLanguage.english: 'Period Revenue',
+    AppLanguage.setswana: 'Lotseno lwa Paka',
+  },
+  'active_listings': {
+    AppLanguage.english: 'Active Listings',
+    AppLanguage.setswana: 'Dilethiso tse di Dirang',
+  },
+  'critical_items': {
+    AppLanguage.english: 'Critical Items',
+    AppLanguage.setswana: 'Dithoto tse di Tlhokegang',
+  },
+  'unique_suppliers': {
+    AppLanguage.english: 'Unique Suppliers',
+    AppLanguage.setswana: 'Barekisi ba ba Farologaneng',
+  },
+  'active_crops': {
+    AppLanguage.english: 'Active Crops',
+    AppLanguage.setswana: 'Dijalo tse di Dirang',
+  },
+  'total_field_size': {
+    AppLanguage.english: 'Total Field Size',
+    AppLanguage.setswana: 'Bogolo jwa Masimo',
+  },
+  'revenue_overview': {
+    AppLanguage.english: 'Revenue vs Purchases',
+    AppLanguage.setswana: 'Lotseno le Direko',
+  },
+  'inventory_overview': {
+    AppLanguage.english: 'Inventory Overview',
+    AppLanguage.setswana: 'Tshobokanyo ya Dithoto',
+  },
+  'crop_overview': {
+    AppLanguage.english: 'Crop Status',
+    AppLanguage.setswana: 'Maemo a Dijalo',
+  },
+  'yield_vs_loss': {
+    AppLanguage.english: 'Yield vs Loss',
+    AppLanguage.setswana: 'Thobo le Ditshenyegelo',
+  },
+  'healthy_stock': {
+    AppLanguage.english: 'Healthy Stock',
+    AppLanguage.setswana: 'Setoko se se Siameng',
+  },
+  'no_data': {
+    AppLanguage.english: 'No data available',
+    AppLanguage.setswana: 'Ga go na tshedimosetso',
+  },
+
+  // Web Dashboard — Phase 4: Marketplace Listings
+  'my_listings': {
+    AppLanguage.english: 'My Listings',
+    AppLanguage.setswana: 'Dilethiso tsa Me',
+  },
+  'browse_marketplace': {
+    AppLanguage.english: 'Browse Marketplace',
+    AppLanguage.setswana: 'Batla mo Marketplace',
+  },
+  'add_listing': {
+    AppLanguage.english: 'Add Listing',
+    AppLanguage.setswana: 'Oketsa Lethiso',
+  },
+  'listing_created': {
+    AppLanguage.english: 'Listing created successfully',
+    AppLanguage.setswana: 'Lethiso le dirilwe ka katlego',
+  },
+  'listing_updated': {
+    AppLanguage.english: 'Listing updated successfully',
+    AppLanguage.setswana: 'Lethiso le fetoletswe ka katlego',
+  },
+  'listing_title': {
+    AppLanguage.english: 'Title',
+    AppLanguage.setswana: 'Setlhogo',
+  },
+  'listing_description': {
+    AppLanguage.english: 'Description',
+    AppLanguage.setswana: 'Tlhaloso',
+  },
+  'listing_type': {
+    AppLanguage.english: 'Type',
+    AppLanguage.setswana: 'Mofuta',
+  },
+  'listing_category': {
+    AppLanguage.english: 'Category',
+    AppLanguage.setswana: 'Karolo',
+  },
+  'listing_price': {
+    AppLanguage.english: 'Price',
+    AppLanguage.setswana: 'Tlhwatlhwa',
+  },
+  'listing_quantity': {
+    AppLanguage.english: 'Quantity',
+    AppLanguage.setswana: 'Bontsi',
+  },
+  'listing_location': {
+    AppLanguage.english: 'Location',
+    AppLanguage.setswana: 'Lefelo',
+  },
+  'no_listings': {
+    AppLanguage.english: 'No listings yet',
+    AppLanguage.setswana: 'Ga go na dilethiso',
+  },
+  'no_listings_hint': {
+    AppLanguage.english: 'Create your first listing to start selling on the marketplace',
+    AppLanguage.setswana: 'Dira lethiso la gago la ntlha go simolola go rekisa mo marketplace',
+  },
+  'error_loading_listings': {
+    AppLanguage.english: 'Failed to load listings',
+    AppLanguage.setswana: 'Go paletse go laisa dilethiso',
+  },
+  'supplies': {
+    AppLanguage.english: 'Supplies',
+    AppLanguage.setswana: 'Dithuso',
+  },
+  'filter_by_type': {
+    AppLanguage.english: 'Filter by type',
+    AppLanguage.setswana: 'Sefa ka mofuta',
+  },
+  'filter_by_category': {
+    AppLanguage.english: 'Filter by category',
+    AppLanguage.setswana: 'Sefa ka karolo',
+  },
+  'all_types': {
+    AppLanguage.english: 'All types',
+    AppLanguage.setswana: 'Mefuta yotlhe',
+  },
+  'price_on_request': {
+    AppLanguage.english: 'Price on request',
+    AppLanguage.setswana: 'Tlhwatlhwa ka kopo',
+  },
+  'created_date': {
+    AppLanguage.english: 'Created',
+    AppLanguage.setswana: 'E dirilwe',
+  },
+
+  // Web Dashboard — Phase 5: Orders & Purchases
+  'orders': {
+    AppLanguage.english: 'Orders',
+    AppLanguage.setswana: 'Di-otara',
+  },
+  'no_orders': {
+    AppLanguage.english: 'No orders yet',
+    AppLanguage.setswana: 'Ga go na di-otara',
+  },
+  'no_orders_hint': {
+    AppLanguage.english: 'Orders from buyers will appear here',
+    AppLanguage.setswana: 'Di-otara tsa bareki di tla bonala fa',
+  },
+  'error_loading_orders': {
+    AppLanguage.english: 'Failed to load orders',
+    AppLanguage.setswana: 'Go paletse go laisa di-otara',
+  },
+  'order_items': {
+    AppLanguage.english: 'Items',
+    AppLanguage.setswana: 'Dithoto',
+  },
+  'order_total': {
+    AppLanguage.english: 'Total',
+    AppLanguage.setswana: 'Yotlhe',
+  },
+  'order_date': {
+    AppLanguage.english: 'Date',
+    AppLanguage.setswana: 'Letlha',
+  },
+  'order_detail': {
+    AppLanguage.english: 'Order Details',
+    AppLanguage.setswana: 'Dintlha tsa Otara',
+  },
+  'order_id': {
+    AppLanguage.english: 'Order ID',
+    AppLanguage.setswana: 'ID ya Otara',
+  },
+  'buyer': {
+    AppLanguage.english: 'Buyer',
+    AppLanguage.setswana: 'Moreki',
+  },
+  'item_title': {
+    AppLanguage.english: 'Item',
+    AppLanguage.setswana: 'Sethoto',
+  },
+  'unit_price': {
+    AppLanguage.english: 'Unit Price',
+    AppLanguage.setswana: 'Tlhwatlhwa ya Sengwe',
+  },
+  'line_total': {
+    AppLanguage.english: 'Line Total',
+    AppLanguage.setswana: 'Paloyotlhe ya Mola',
+  },
+  'pending': {
+    AppLanguage.english: 'Pending',
+    AppLanguage.setswana: 'E Emetse',
+  },
+  'confirmed': {
+    AppLanguage.english: 'Confirmed',
+    AppLanguage.setswana: 'E Netefaditswe',
+  },
+  'shipped': {
+    AppLanguage.english: 'Shipped',
+    AppLanguage.setswana: 'E Rometswe',
+  },
+  'delivered': {
+    AppLanguage.english: 'Delivered',
+    AppLanguage.setswana: 'E Fitlhile',
+  },
+  'cancelled': {
+    AppLanguage.english: 'Cancelled',
+    AppLanguage.setswana: 'E Khanseletse',
+  },
+  'confirm_order': {
+    AppLanguage.english: 'Confirm Order',
+    AppLanguage.setswana: 'Netefatsa Otara',
+  },
+  'ship_order': {
+    AppLanguage.english: 'Ship Order',
+    AppLanguage.setswana: 'Romela Otara',
+  },
+  'mark_delivered': {
+    AppLanguage.english: 'Mark Delivered',
+    AppLanguage.setswana: 'Swaya e Fitlhile',
+  },
+  'cancel_order': {
+    AppLanguage.english: 'Cancel Order',
+    AppLanguage.setswana: 'Khansela Otara',
+  },
+  'status_updated': {
+    AppLanguage.english: 'Order status updated',
+    AppLanguage.setswana: 'Maemo a otara a fetoletswe',
+  },
+  'order_cancelled': {
+    AppLanguage.english: 'Order cancelled',
+    AppLanguage.setswana: 'Otara e khanseleditswe',
+  },
+  'filter_by_status': {
+    AppLanguage.english: 'Filter by status',
+    AppLanguage.setswana: 'Sefa ka maemo',
+  },
+  'all_statuses': {
+    AppLanguage.english: 'All statuses',
+    AppLanguage.setswana: 'Maemo otlhe',
+  },
+  'purchases': {
+    AppLanguage.english: 'Purchases',
+    AppLanguage.setswana: 'Direko',
+  },
+  'no_purchases': {
+    AppLanguage.english: 'No purchases yet',
+    AppLanguage.setswana: 'Ga go na direko',
+  },
+  'no_purchases_hint': {
+    AppLanguage.english: 'Record your first purchase to start tracking',
+    AppLanguage.setswana: 'Kwala theko ya gago ya ntlha go simolola go latela',
+  },
+  'error_loading_purchases': {
+    AppLanguage.english: 'Failed to load purchases',
+    AppLanguage.setswana: 'Go paletse go laisa direko',
+  },
+  'add_purchase': {
+    AppLanguage.english: 'Add Purchase',
+    AppLanguage.setswana: 'Oketsa Theko',
+  },
+  'edit_purchase': {
+    AppLanguage.english: 'Edit Purchase',
+    AppLanguage.setswana: 'Fetola Theko',
+  },
+  'delete_purchase': {
+    AppLanguage.english: 'Delete Purchase',
+    AppLanguage.setswana: 'Tlosa Theko',
+  },
+  'delete_purchase_confirm': {
+    AppLanguage.english: 'Are you sure you want to delete this purchase?',
+    AppLanguage.setswana: 'A o netefatsa gore o batla go tlosa theko e?',
+  },
+  'purchase_added': {
+    AppLanguage.english: 'Purchase added successfully',
+    AppLanguage.setswana: 'Theko e oketsitswe ka katlego',
+  },
+  'purchase_updated': {
+    AppLanguage.english: 'Purchase updated successfully',
+    AppLanguage.setswana: 'Theko e fetoletswe ka katlego',
+  },
+  'purchase_deleted': {
+    AppLanguage.english: 'Purchase deleted successfully',
+    AppLanguage.setswana: 'Theko e tlositswe ka katlego',
+  },
+  'seller_name': {
+    AppLanguage.english: 'Seller Name',
+    AppLanguage.setswana: 'Leina la Morekisi',
+  },
+  'price_per_unit': {
+    AppLanguage.english: 'Price per Unit',
+    AppLanguage.setswana: 'Tlhwatlhwa ka Sengwe',
+  },
+  'purchase_date': {
+    AppLanguage.english: 'Purchase Date',
+    AppLanguage.setswana: 'Letlha la Theko',
+  },
+  'total_amount': {
+    AppLanguage.english: 'Total Amount',
+    AppLanguage.setswana: 'Paloyotlhe',
+  },
+
+  // Web Dashboard — Phase 6.5: Purchase Summary Stats
+  'total_spend': {
+    AppLanguage.english: 'Total Spend',
+    AppLanguage.setswana: 'Ditshenyegelo Tsotlhe',
+  },
+  'average_purchase': {
+    AppLanguage.english: 'Average Purchase',
+    AppLanguage.setswana: 'Theko e e Akaretsang',
+  },
+  'top_supplier': {
+    AppLanguage.english: 'Top Supplier',
+    AppLanguage.setswana: 'Morekisi yo Mogolo',
+  },
+  'purchase_frequency': {
+    AppLanguage.english: 'Purchase Frequency',
+    AppLanguage.setswana: 'Lobelo lwa go Reka',
+  },
+  'per_month': {
+    AppLanguage.english: '/month',
+    AppLanguage.setswana: '/kgwedi',
+  },
+  'purchases_count': {
+    AppLanguage.english: 'purchases',
+    AppLanguage.setswana: 'ditheko',
+  },
 };
 
 String t(String key, AppLanguage lang) {
