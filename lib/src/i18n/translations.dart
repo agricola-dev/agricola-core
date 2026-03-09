@@ -2516,6 +2516,88 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Type your email to confirm:',
     AppLanguage.setswana: 'Kwala imeile ya gago go netefatsa:',
   },
+
+  // Web Dashboard — Phase 8.6: Loss Calculator
+  'no_calculations': {
+    AppLanguage.english: 'No calculations yet',
+    AppLanguage.setswana: 'Ga go na dipalo',
+  },
+  'add_calculation': {
+    AppLanguage.english: 'New Calculation',
+    AppLanguage.setswana: 'Palo e Ntšhwa',
+  },
+  'calculation_added': {
+    AppLanguage.english: 'Calculation saved',
+    AppLanguage.setswana: 'Palo e bolokilwe',
+  },
+  'calculation_deleted': {
+    AppLanguage.english: 'Calculation deleted',
+    AppLanguage.setswana: 'Palo e phimolwe',
+  },
+  'add_calculation_hint': {
+    AppLanguage.english: 'Calculate post-harvest losses for your crops',
+    AppLanguage.setswana: 'Bala ditatlhegelo tsa morago ga thobo ya dijalo tsa gago',
+  },
+  'error_loading_calculations': {
+    AppLanguage.english: 'Failed to load calculations',
+    AppLanguage.setswana: 'Go paletšwe go laisa dipalo',
+  },
+  'crop_category': {
+    AppLanguage.english: 'Crop Category',
+    AppLanguage.setswana: 'Mofuta wa Sejalo',
+  },
+  'loss_percentage': {
+    AppLanguage.english: 'Loss %',
+    AppLanguage.setswana: 'Tatlhegelo %',
+  },
+  'monetary_loss': {
+    AppLanguage.english: 'Monetary Loss',
+    AppLanguage.setswana: 'Tatlhegelo ya Madi',
+  },
+  'remaining_amount': {
+    AppLanguage.english: 'Remaining Amount',
+    AppLanguage.setswana: 'Selekanyo se se Setseng',
+  },
+  'add_stage': {
+    AppLanguage.english: 'Add Stage',
+    AppLanguage.setswana: 'Tsenya Legato',
+  },
+  'loss_cause': {
+    AppLanguage.english: 'Cause',
+    AppLanguage.setswana: 'Lebaka',
+  },
+  'view_details': {
+    AppLanguage.english: 'View Details',
+    AppLanguage.setswana: 'Bona Dintlha',
+  },
+  'below_average': {
+    AppLanguage.english: 'Below regional average',
+    AppLanguage.setswana: 'Ka tlase ga palogare ya tikologo',
+  },
+  'above_average': {
+    AppLanguage.english: 'Above regional average',
+    AppLanguage.setswana: 'Ka godimo ga palogare ya tikologo',
+  },
+  'cereals': {
+    AppLanguage.english: 'Cereals',
+    AppLanguage.setswana: 'Dijo tsa Mabele',
+  },
+  'legumes': {
+    AppLanguage.english: 'Legumes',
+    AppLanguage.setswana: 'Dinawa',
+  },
+  'roots_tubers': {
+    AppLanguage.english: 'Roots & Tubers',
+    AppLanguage.setswana: 'Medi le Diknopi',
+  },
+  'severity': {
+    AppLanguage.english: 'Severity',
+    AppLanguage.setswana: 'Bogolo',
+  },
+  'total_harvest': {
+    AppLanguage.english: 'Total Harvest',
+    AppLanguage.setswana: 'Thobo Yotlhe',
+  },
 };
 
 String t(String key, AppLanguage lang) {
