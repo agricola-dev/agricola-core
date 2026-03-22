@@ -1936,6 +1936,46 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
         'Diphetogo di boloketswe mono, di tla romelwa fa o golagana',
   },
   // Data export
+  'reports': {
+    AppLanguage.english: 'Reports',
+    AppLanguage.setswana: 'Dipegelo',
+  },
+  'date_range': {
+    AppLanguage.english: 'Date Range',
+    AppLanguage.setswana: 'Lekgotla la Matsatsi',
+  },
+  'custom_range': {
+    AppLanguage.english: 'Custom',
+    AppLanguage.setswana: 'Kgetse',
+  },
+  'from_date': {
+    AppLanguage.english: 'From',
+    AppLanguage.setswana: 'Go Tloga',
+  },
+  'to_date': {
+    AppLanguage.english: 'To',
+    AppLanguage.setswana: 'Go Ya',
+  },
+  'export_as_csv': {
+    AppLanguage.english: 'Export as CSV',
+    AppLanguage.setswana: 'Romela jaaka CSV',
+  },
+  'export_as_pdf': {
+    AppLanguage.english: 'Export as PDF',
+    AppLanguage.setswana: 'Romela jaaka PDF',
+  },
+  'print_report': {
+    AppLanguage.english: 'Print',
+    AppLanguage.setswana: 'Printa',
+  },
+  'download': {
+    AppLanguage.english: 'Download',
+    AppLanguage.setswana: 'Kopolola',
+  },
+  'showing_all_time_stats': {
+    AppLanguage.english: 'Stats show all-time data — custom range filters the table below',
+    AppLanguage.setswana: 'Dipalopalo di bontsha nako yotlhe — lekgotla la matsatsi le sefa tafole e e fa tlase',
+  },
   'export_data': {
     AppLanguage.english: 'Export Data',
     AppLanguage.setswana: 'Romela Tshedimosetso',
