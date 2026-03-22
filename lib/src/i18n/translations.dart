@@ -821,6 +821,12 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   'skip': {AppLanguage.english: 'Skip', AppLanguage.setswana: 'Feta'},
   'edit': {AppLanguage.english: 'Edit', AppLanguage.setswana: 'Baakanya'},
   'delete': {AppLanguage.english: 'Delete', AppLanguage.setswana: 'Phimola'},
+  'previous': {AppLanguage.english: 'Previous', AppLanguage.setswana: 'Go Fetileng'},
+  'rows_per_page': {AppLanguage.english: 'Rows per page', AppLanguage.setswana: 'Mela ka tsebe'},
+  'showing_x_of_y': {
+    AppLanguage.english: 'Showing {start}–{end} of {total}',
+    AppLanguage.setswana: 'Go bontsha {start}–{end} mo go {total}',
+  },
 
   // Crop categories and crop type translations are now served by the backend
   // via the crop catalog API. Category keys ('vegetables', 'field_crops', 'fruits')
