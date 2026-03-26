@@ -1157,6 +1157,41 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.setswana:
         'A o tlhomamisa gore o batla go phimola selo se sa dithoto?',
   },
+  'items_selected': {
+    AppLanguage.english: 'items selected',
+    AppLanguage.setswana: 'dilo di tlhophilwe',
+  },
+  'bulk_delete': {
+    AppLanguage.english: 'Delete Selected',
+    AppLanguage.setswana: 'Phimola Tse di Tlhophilweng',
+  },
+  'bulk_update_condition': {
+    AppLanguage.english: 'Update Condition',
+    AppLanguage.setswana: 'Fetola Maemo',
+  },
+  'bulk_delete_confirm': {
+    AppLanguage.english:
+        'Are you sure you want to delete {count} inventory items? This cannot be undone.',
+    AppLanguage.setswana:
+        'A o tlhomamisegile fa o batla go phimola dilo tsa polokelo tse {count}? Tiro e ga e ka ke ya busediwa morago.',
+  },
+  'bulk_update_condition_confirm': {
+    AppLanguage.english: 'Update condition of {count} items to "{condition}"?',
+    AppLanguage.setswana:
+        'Fetola maemo a dilo tse {count} go nna "{condition}"?',
+  },
+  'bulk_delete_success': {
+    AppLanguage.english: 'Successfully deleted {count} items',
+    AppLanguage.setswana: 'Dilo tse {count} di phimoletswe ka katlego',
+  },
+  'bulk_update_success': {
+    AppLanguage.english: 'Successfully updated condition of {count} items',
+    AppLanguage.setswana: 'Maemo a dilo tse {count} a fetotsweng ka katlego',
+  },
+  'select_condition': {
+    AppLanguage.english: 'Select Condition',
+    AppLanguage.setswana: 'Tlhopha Maemo',
+  },
   'error_loading_inventory': {
     AppLanguage.english: 'Failed to load inventory',
     AppLanguage.setswana: 'Go padile go tsenya dithoto',

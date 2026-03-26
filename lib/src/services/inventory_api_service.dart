@@ -29,4 +29,22 @@ class InventoryApiService {
   Future<void> deleteInventory(String id) async {
     await _dio.delete('/api/v1/inventory/$id');
   }
+
+  /// POST /api/v1/inventory/bulk-delete — delete multiple inventory items
+  Future<int> bulkDeleteInventory(List<String> ids) async {
+    final response = await _dio.post(
+      '/api/v1/inventory/bulk-delete',
+      data: {'ids': ids},
+    );
+    return response.data['data']['deletedCount'] as int;
+  }
+
+  /// PATCH /api/v1/inventory/bulk-condition — update condition on multiple items
+  Future<int> bulkUpdateCondition(List<String> ids, String condition) async {
+    final response = await _dio.patch(
+      '/api/v1/inventory/bulk-condition',
+      data: {'ids': ids, 'condition': condition},
+    );
+    return response.data['data']['updatedCount'] as int;
+  }
 }
