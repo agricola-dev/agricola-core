@@ -2679,6 +2679,44 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Total Harvest',
     AppLanguage.setswana: 'Thobo Yotlhe',
   },
+
+  // Form validation
+  'field_required': {
+    AppLanguage.english: 'This field is required',
+    AppLanguage.setswana: 'Tshono e e tlhokega',
+  },
+  'email_invalid': {
+    AppLanguage.english: 'Enter a valid email address',
+    AppLanguage.setswana: 'Kwala aterese ya imeile e e nepagetseng',
+  },
+  'password_too_short': {
+    AppLanguage.english: 'Password must be at least 6 characters',
+    AppLanguage.setswana: 'Phasewete e tshwanetse go nna le dikgatiso tse 6 bonyane',
+  },
+  'number_invalid': {
+    AppLanguage.english: 'Enter a valid number',
+    AppLanguage.setswana: 'Kwala nomoro e e nepagetseng',
+  },
+  'number_positive': {
+    AppLanguage.english: 'Must be greater than 0',
+    AppLanguage.setswana: 'E tshwanetse go feta 0',
+  },
+  'name_too_short': {
+    AppLanguage.english: 'Name is too short',
+    AppLanguage.setswana: 'Leina le le khutshwane thata',
+  },
+  'name_too_long': {
+    AppLanguage.english: 'Name is too long',
+    AppLanguage.setswana: 'Leina le le telele thata',
+  },
+  'village_too_short': {
+    AppLanguage.english: 'Village name is too short',
+    AppLanguage.setswana: 'Leina la motse le le khutshwane thata',
+  },
+  'village_too_long': {
+    AppLanguage.english: 'Village name is too long',
+    AppLanguage.setswana: 'Leina la motse le le telele thata',
+  },
 };
 
 String t(String key, AppLanguage lang) {
