@@ -2623,6 +2623,80 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Failed to load calculations',
     AppLanguage.setswana: 'Go paletšwe go laisa dipalo',
   },
+  // --- Generic action error messages ---
+  'error_try_again': {
+    AppLanguage.english: 'Please try again later',
+    AppLanguage.setswana: 'Leka gape moragonyana',
+  },
+  'error_save_failed': {
+    AppLanguage.english: 'Failed to save. Please try again',
+    AppLanguage.setswana: 'Go paleletswe go boloka. Leka gape',
+  },
+  'error_update_failed': {
+    AppLanguage.english: 'Failed to update. Please try again',
+    AppLanguage.setswana: 'Go paleletswe go fetola. Leka gape',
+  },
+  'error_delete_failed': {
+    AppLanguage.english: 'Failed to delete. Please try again',
+    AppLanguage.setswana: 'Go paleletswe go phimola. Leka gape',
+  },
+  'error_cancel_failed': {
+    AppLanguage.english: 'Failed to cancel. Please try again',
+    AppLanguage.setswana: 'Go paleletswe go khansela. Leka gape',
+  },
+  'error_status_update_failed': {
+    AppLanguage.english: 'Failed to update status. Please try again',
+    AppLanguage.setswana: 'Go paleletswe go fetola maemo. Leka gape',
+  },
+  'error_bulk_delete_failed': {
+    AppLanguage.english: 'Failed to delete selected items. Please try again',
+    AppLanguage.setswana: 'Go paleletswe go phimola tse di tlhophilweng. Leka gape',
+  },
+  'error_bulk_update_failed': {
+    AppLanguage.english: 'Failed to update selected items. Please try again',
+    AppLanguage.setswana: 'Go paleletswe go fetola tse di tlhophilweng. Leka gape',
+  },
+  // --- Auth error messages ---
+  'error_user_not_found': {
+    AppLanguage.english: 'No account found with this email',
+    AppLanguage.setswana: 'Ga go na akhaonto e e nang le imeile eno',
+  },
+  'error_wrong_password': {
+    AppLanguage.english: 'Incorrect password. Please try again',
+    AppLanguage.setswana: 'Khunololamorago e e sa siamang. Leka gape',
+  },
+  'error_email_in_use': {
+    AppLanguage.english: 'This email is already registered',
+    AppLanguage.setswana: 'Imeile eno e setse e kwadisitswe',
+  },
+  'error_invalid_email': {
+    AppLanguage.english: 'Please enter a valid email address',
+    AppLanguage.setswana: 'Tsenya imeile e e siameng',
+  },
+  'error_weak_password': {
+    AppLanguage.english: 'Password is too weak. Use at least 6 characters',
+    AppLanguage.setswana: 'Khunololamorago e bokoa thata. Dirisa ditlhaka di le 6 kana go feta',
+  },
+  'error_too_many_requests': {
+    AppLanguage.english: 'Too many attempts. Please wait and try again',
+    AppLanguage.setswana: 'Maitekelo a mantsi thata. Ema go se kae o leke gape',
+  },
+  'error_account_disabled': {
+    AppLanguage.english: 'This account has been disabled',
+    AppLanguage.setswana: 'Akhaonto eno e thibetswe',
+  },
+  'error_invalid_credential': {
+    AppLanguage.english: 'Invalid login credentials',
+    AppLanguage.setswana: 'Tshedimosetso ya go tsena e e sa siamang',
+  },
+  'error_auth_network': {
+    AppLanguage.english: 'Network error. Check your connection and try again',
+    AppLanguage.setswana: 'Bothata jwa netweke. Tlhola kgolagano ya gago o leke gape',
+  },
+  'error_auth_unknown': {
+    AppLanguage.english: 'Sign in failed. Please try again',
+    AppLanguage.setswana: 'Go tsena go paletswe. Leka gape',
+  },
   'crop_category': {
     AppLanguage.english: 'Crop Category',
     AppLanguage.setswana: 'Mofuta wa Sejalo',
