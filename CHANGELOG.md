@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1 — 2026-04-17
+
+### Added
+- Translation keys for marketplace order flow: `request_sent`, `seller_will_contact_you`, `view_orders`
+- Translation keys for loss calculator custom inputs: `specify_unit`, `specify_storage_method`
+
 ## 1.1.0 — 2026-03-26
 
 ### Added

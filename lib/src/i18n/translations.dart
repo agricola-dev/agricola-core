@@ -2793,6 +2793,26 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Request to Buy',
     AppLanguage.setswana: 'Kopa go Reka',
   },
+  'request_sent': {
+    AppLanguage.english: 'Request sent!',
+    AppLanguage.setswana: 'Kopo e romilwe!',
+  },
+  'seller_will_contact_you': {
+    AppLanguage.english: 'The seller will contact you shortly.',
+    AppLanguage.setswana: 'Mmegi o tla go ikopanya ka bonako.',
+  },
+  'view_orders': {
+    AppLanguage.english: 'View Orders',
+    AppLanguage.setswana: 'Bona Ditaelo',
+  },
+  'specify_unit': {
+    AppLanguage.english: 'Specify unit (e.g. crates, boxes)',
+    AppLanguage.setswana: 'Bua unit (e.g. dikhoxa)',
+  },
+  'specify_storage_method': {
+    AppLanguage.english: 'Describe your storage method',
+    AppLanguage.setswana: 'Tlhalosa mokgwa wa go boloka',
+  },
 };
 
 String t(String key, AppLanguage lang) {
