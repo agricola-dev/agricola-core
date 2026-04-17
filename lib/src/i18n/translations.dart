@@ -1336,6 +1336,30 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.setswana:
         'Setshwantsho se tshwanetse go nna ka fa tlase ga 5MB le formate ya JPG/PNG',
   },
+  'image_invalid_format': {
+    AppLanguage.english: 'Invalid image. Please select a JPG or PNG file.',
+    AppLanguage.setswana: 'Setshwantsho ga se se siameng. Tlhopha faele ya JPG kgotsa PNG.',
+  },
+  'image_too_large_even_compressed': {
+    AppLanguage.english: 'Image is too large. Please choose a smaller photo.',
+    AppLanguage.setswana: 'Setshwantsho ke se segolo. Tlhopha setshwantsho se senyenyane.',
+  },
+  'some_images_skipped': {
+    AppLanguage.english: 'Some images could not be added',
+    AppLanguage.setswana: 'Ditshwantsho tse dingwe ga di a kgona go tsenngwa',
+  },
+  'could_not_open_phone_app': {
+    AppLanguage.english: 'Could not open phone app',
+    AppLanguage.setswana: 'Go ne go sa kgonege go bula porogrami ya mogala',
+  },
+  'could_not_open_email_app': {
+    AppLanguage.english: 'Could not open email app',
+    AppLanguage.setswana: 'Go ne go sa kgonege go bula porogrami ya imeile',
+  },
+  'sold_out': {
+    AppLanguage.english: 'Sold Out',
+    AppLanguage.setswana: 'Go Rekisitswe Gotlhe',
+  },
   'update_product': {
     AppLanguage.english: 'Update Product',
     AppLanguage.setswana: 'Ntšhafatsa Selo',
