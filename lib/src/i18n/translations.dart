@@ -821,8 +821,14 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   'skip': {AppLanguage.english: 'Skip', AppLanguage.setswana: 'Feta'},
   'edit': {AppLanguage.english: 'Edit', AppLanguage.setswana: 'Baakanya'},
   'delete': {AppLanguage.english: 'Delete', AppLanguage.setswana: 'Phimola'},
-  'previous': {AppLanguage.english: 'Previous', AppLanguage.setswana: 'Go Fetileng'},
-  'rows_per_page': {AppLanguage.english: 'Rows per page', AppLanguage.setswana: 'Mela ka tsebe'},
+  'previous': {
+    AppLanguage.english: 'Previous',
+    AppLanguage.setswana: 'Go Fetileng',
+  },
+  'rows_per_page': {
+    AppLanguage.english: 'Rows per page',
+    AppLanguage.setswana: 'Mela ka tsebe',
+  },
   'showing_x_of_y': {
     AppLanguage.english: 'Showing {start}–{end} of {total}',
     AppLanguage.setswana: 'Go bontsha {start}–{end} mo go {total}',
@@ -1298,7 +1304,8 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   },
   'delete_listing_confirm': {
     AppLanguage.english: 'Are you sure you want to delete this listing?',
-    AppLanguage.setswana: 'A o tlhomamisegile gore o batla go phimola lenaneo leno?',
+    AppLanguage.setswana:
+        'A o tlhomamisegile gore o batla go phimola lenaneo leno?',
   },
   'listing_deleted': {
     AppLanguage.english: 'Listing deleted successfully',
@@ -1326,7 +1333,8 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   },
   'image_too_large': {
     AppLanguage.english: 'Image must be less than 5MB and JPG/PNG format',
-    AppLanguage.setswana: 'Setshwantsho se tshwanetse go nna ka fa tlase ga 5MB le formate ya JPG/PNG',
+    AppLanguage.setswana:
+        'Setshwantsho se tshwanetse go nna ka fa tlase ga 5MB le formate ya JPG/PNG',
   },
   'update_product': {
     AppLanguage.english: 'Update Product',
@@ -1977,10 +1985,7 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
         'Diphetogo di boloketswe mono, di tla romelwa fa o golagana',
   },
   // Data export
-  'reports': {
-    AppLanguage.english: 'Reports',
-    AppLanguage.setswana: 'Dipegelo',
-  },
+  'reports': {AppLanguage.english: 'Reports', AppLanguage.setswana: 'Dipegelo'},
   'date_range': {
     AppLanguage.english: 'Date Range',
     AppLanguage.setswana: 'Lekgotla la Matsatsi',
@@ -1989,14 +1994,8 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Custom',
     AppLanguage.setswana: 'Kgetse',
   },
-  'from_date': {
-    AppLanguage.english: 'From',
-    AppLanguage.setswana: 'Go Tloga',
-  },
-  'to_date': {
-    AppLanguage.english: 'To',
-    AppLanguage.setswana: 'Go Ya',
-  },
+  'from_date': {AppLanguage.english: 'From', AppLanguage.setswana: 'Go Tloga'},
+  'to_date': {AppLanguage.english: 'To', AppLanguage.setswana: 'Go Ya'},
   'export_as_csv': {
     AppLanguage.english: 'Export as CSV',
     AppLanguage.setswana: 'Romela jaaka CSV',
@@ -2014,8 +2013,10 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.setswana: 'Kopolola',
   },
   'showing_all_time_stats': {
-    AppLanguage.english: 'Stats show all-time data — custom range filters the table below',
-    AppLanguage.setswana: 'Dipalopalo di bontsha nako yotlhe — lekgotla la matsatsi le sefa tafole e e fa tlase',
+    AppLanguage.english:
+        'Stats show all-time data — custom range filters the table below',
+    AppLanguage.setswana:
+        'Dipalopalo di bontsha nako yotlhe — lekgotla la matsatsi le sefa tafole e e fa tlase',
   },
   'export_data': {
     AppLanguage.english: 'Export Data',
@@ -2079,10 +2080,7 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.setswana: 'Nomoro ya Odara',
   },
   // Loss Calculator — history & save
-  'history': {
-    AppLanguage.english: 'History',
-    AppLanguage.setswana: 'Hisitori',
-  },
+  'history': {AppLanguage.english: 'History', AppLanguage.setswana: 'Hisitori'},
   'loss_history': {
     AppLanguage.english: 'Loss History',
     AppLanguage.setswana: 'Hisitori ya Ditshenyegelo',
@@ -2095,10 +2093,7 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Save Results',
     AppLanguage.setswana: 'Boloka Dipholo',
   },
-  'saved': {
-    AppLanguage.english: 'Saved',
-    AppLanguage.setswana: 'E Bolokilwe',
-  },
+  'saved': {AppLanguage.english: 'Saved', AppLanguage.setswana: 'E Bolokilwe'},
   'save_failed': {
     AppLanguage.english: 'Failed to save. Please try again.',
     AppLanguage.setswana: 'Go boloka go paletse. Leka gape.',
@@ -2123,14 +2118,8 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'more than average',
     AppLanguage.setswana: 'ka godimo ga average',
   },
-  'avg': {
-    AppLanguage.english: 'Avg',
-    AppLanguage.setswana: 'Avg',
-  },
-  'region': {
-    AppLanguage.english: 'Region',
-    AppLanguage.setswana: 'Kgaolo',
-  },
+  'avg': {AppLanguage.english: 'Avg', AppLanguage.setswana: 'Avg'},
+  'region': {AppLanguage.english: 'Region', AppLanguage.setswana: 'Kgaolo'},
 
   // Web Dashboard
   'harvests': {
@@ -2167,30 +2156,15 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Overview of your activity',
     AppLanguage.setswana: 'Tshobokanyo ya ditiro tsa gago',
   },
-  'week': {
-    AppLanguage.english: 'Week',
-    AppLanguage.setswana: 'Beke',
-  },
-  'month': {
-    AppLanguage.english: 'Month',
-    AppLanguage.setswana: 'Kgwedi',
-  },
-  'year': {
-    AppLanguage.english: 'Year',
-    AppLanguage.setswana: 'Ngwaga',
-  },
+  'week': {AppLanguage.english: 'Week', AppLanguage.setswana: 'Beke'},
+  'month': {AppLanguage.english: 'Month', AppLanguage.setswana: 'Kgwedi'},
+  'year': {AppLanguage.english: 'Year', AppLanguage.setswana: 'Ngwaga'},
   'all_time': {
     AppLanguage.english: 'All Time',
     AppLanguage.setswana: 'Nako Yotlhe',
   },
-  'total': {
-    AppLanguage.english: 'Total',
-    AppLanguage.setswana: 'Yotlhe',
-  },
-  'revenue': {
-    AppLanguage.english: 'Revenue',
-    AppLanguage.setswana: 'Lotseno',
-  },
+  'total': {AppLanguage.english: 'Total', AppLanguage.setswana: 'Yotlhe'},
+  'revenue': {AppLanguage.english: 'Revenue', AppLanguage.setswana: 'Lotseno'},
   'period_revenue': {
     AppLanguage.english: 'Period Revenue',
     AppLanguage.setswana: 'Lotseno lwa Paka',
@@ -2261,10 +2235,7 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Description',
     AppLanguage.setswana: 'Tlhaloso',
   },
-  'listing_type': {
-    AppLanguage.english: 'Type',
-    AppLanguage.setswana: 'Mofuta',
-  },
+  'listing_type': {AppLanguage.english: 'Type', AppLanguage.setswana: 'Mofuta'},
   'listing_category': {
     AppLanguage.english: 'Category',
     AppLanguage.setswana: 'Karolo',
@@ -2286,8 +2257,10 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.setswana: 'Ga go na dilethiso',
   },
   'no_listings_hint': {
-    AppLanguage.english: 'Create your first listing to start selling on the marketplace',
-    AppLanguage.setswana: 'Dira lethiso la gago la ntlha go simolola go rekisa mo marketplace',
+    AppLanguage.english:
+        'Create your first listing to start selling on the marketplace',
+    AppLanguage.setswana:
+        'Dira lethiso la gago la ntlha go simolola go rekisa mo marketplace',
   },
   'error_loading_listings': {
     AppLanguage.english: 'Failed to load listings',
@@ -2335,26 +2308,14 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Items',
     AppLanguage.setswana: 'Dithoto',
   },
-  'order_total': {
-    AppLanguage.english: 'Total',
-    AppLanguage.setswana: 'Yotlhe',
-  },
-  'order_date': {
-    AppLanguage.english: 'Date',
-    AppLanguage.setswana: 'Letlha',
-  },
+  'order_total': {AppLanguage.english: 'Total', AppLanguage.setswana: 'Yotlhe'},
+  'order_date': {AppLanguage.english: 'Date', AppLanguage.setswana: 'Letlha'},
   'order_detail': {
     AppLanguage.english: 'Order Details',
     AppLanguage.setswana: 'Dintlha tsa Otara',
   },
-  'buyer': {
-    AppLanguage.english: 'Buyer',
-    AppLanguage.setswana: 'Moreki',
-  },
-  'item_title': {
-    AppLanguage.english: 'Item',
-    AppLanguage.setswana: 'Sethoto',
-  },
+  'buyer': {AppLanguage.english: 'Buyer', AppLanguage.setswana: 'Moreki'},
+  'item_title': {AppLanguage.english: 'Item', AppLanguage.setswana: 'Sethoto'},
   'unit_price': {
     AppLanguage.english: 'Unit Price',
     AppLanguage.setswana: 'Tlhwatlhwa ya Sengwe',
@@ -2363,10 +2324,7 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Line Total',
     AppLanguage.setswana: 'Paloyotlhe ya Mola',
   },
-  'pending': {
-    AppLanguage.english: 'Pending',
-    AppLanguage.setswana: 'E Emetse',
-  },
+  'pending': {AppLanguage.english: 'Pending', AppLanguage.setswana: 'E Emetse'},
   'confirmed': {
     AppLanguage.english: 'Confirmed',
     AppLanguage.setswana: 'E Netefaditswe',
@@ -2469,10 +2427,7 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Purchase Frequency',
     AppLanguage.setswana: 'Lobelo lwa go Reka',
   },
-  'per_month': {
-    AppLanguage.english: '/month',
-    AppLanguage.setswana: '/kgwedi',
-  },
+  'per_month': {AppLanguage.english: '/month', AppLanguage.setswana: '/kgwedi'},
   'purchases_count': {
     AppLanguage.english: 'purchases',
     AppLanguage.setswana: 'ditheko',
@@ -2500,8 +2455,10 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.setswana: 'Sejalo se tlositswe ka katlego',
   },
   'delete_crop_confirm': {
-    AppLanguage.english: 'Are you sure you want to delete this crop? This will also remove all associated harvests.',
-    AppLanguage.setswana: 'A o itshupa gore o batla go tlosa sejalo se? Se se tla tlosa le dithobo tsotlhe tse di amanang.',
+    AppLanguage.english:
+        'Are you sure you want to delete this crop? This will also remove all associated harvests.',
+    AppLanguage.setswana:
+        'A o itshupa gore o batla go tlosa sejalo se? Se se tla tlosa le dithobo tsotlhe tse di amanang.',
   },
   'error_loading_crops': {
     AppLanguage.english: 'Failed to load crops',
@@ -2529,32 +2486,21 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   },
   'delete_harvest_confirm': {
     AppLanguage.english: 'Are you sure you want to delete this harvest record?',
-    AppLanguage.setswana: 'A o itshupa gore o batla go tlosa rekoto e ya thobo?',
+    AppLanguage.setswana:
+        'A o itshupa gore o batla go tlosa rekoto e ya thobo?',
   },
   'error_loading_harvests': {
     AppLanguage.english: 'Failed to load harvests',
     AppLanguage.setswana: 'Go paletse go laisa dithobo',
   },
-  'none': {
-    AppLanguage.english: 'None',
-    AppLanguage.setswana: 'Sepe',
-  },
-  'acres': {
-    AppLanguage.english: 'Acres',
-    AppLanguage.setswana: 'Di-eka',
-  },
+  'none': {AppLanguage.english: 'None', AppLanguage.setswana: 'Sepe'},
+  'acres': {AppLanguage.english: 'Acres', AppLanguage.setswana: 'Di-eka'},
   'square_metres': {
     AppLanguage.english: 'Square Metres',
     AppLanguage.setswana: 'Dimetara tse di Sekwere',
   },
-  'disease': {
-    AppLanguage.english: 'Disease',
-    AppLanguage.setswana: 'Bolwetse',
-  },
-  'drought': {
-    AppLanguage.english: 'Drought',
-    AppLanguage.setswana: 'Komelelo',
-  },
+  'disease': {AppLanguage.english: 'Disease', AppLanguage.setswana: 'Bolwetse'},
+  'drought': {AppLanguage.english: 'Drought', AppLanguage.setswana: 'Komelelo'},
   'flooding': {
     AppLanguage.english: 'Flooding',
     AppLanguage.setswana: 'Morwalela',
@@ -2577,10 +2523,7 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Profile updated successfully',
     AppLanguage.setswana: 'Profaele e ntshafaditswe',
   },
-  'village': {
-    AppLanguage.english: 'Village',
-    AppLanguage.setswana: 'Motse',
-  },
+  'village': {AppLanguage.english: 'Village', AppLanguage.setswana: 'Motse'},
   'merchant_type': {
     AppLanguage.english: 'Merchant Type',
     AppLanguage.setswana: 'Mofuta wa Morekisi',
@@ -2617,7 +2560,8 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   },
   'add_calculation_hint': {
     AppLanguage.english: 'Calculate post-harvest losses for your crops',
-    AppLanguage.setswana: 'Bala ditatlhegelo tsa morago ga thobo ya dijalo tsa gago',
+    AppLanguage.setswana:
+        'Bala ditatlhegelo tsa morago ga thobo ya dijalo tsa gago',
   },
   'error_loading_calculations': {
     AppLanguage.english: 'Failed to load calculations',
@@ -2650,11 +2594,13 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   },
   'error_bulk_delete_failed': {
     AppLanguage.english: 'Failed to delete selected items. Please try again',
-    AppLanguage.setswana: 'Go paleletswe go phimola tse di tlhophilweng. Leka gape',
+    AppLanguage.setswana:
+        'Go paleletswe go phimola tse di tlhophilweng. Leka gape',
   },
   'error_bulk_update_failed': {
     AppLanguage.english: 'Failed to update selected items. Please try again',
-    AppLanguage.setswana: 'Go paleletswe go fetola tse di tlhophilweng. Leka gape',
+    AppLanguage.setswana:
+        'Go paleletswe go fetola tse di tlhophilweng. Leka gape',
   },
   // --- Auth error messages ---
   'error_user_not_found': {
@@ -2675,7 +2621,8 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   },
   'error_weak_password': {
     AppLanguage.english: 'Password is too weak. Use at least 6 characters',
-    AppLanguage.setswana: 'Khunololamorago e bokoa thata. Dirisa ditlhaka di le 6 kana go feta',
+    AppLanguage.setswana:
+        'Khunololamorago e bokoa thata. Dirisa ditlhaka di le 6 kana go feta',
   },
   'error_too_many_requests': {
     AppLanguage.english: 'Too many attempts. Please wait and try again',
@@ -2691,7 +2638,8 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   },
   'error_auth_network': {
     AppLanguage.english: 'Network error. Check your connection and try again',
-    AppLanguage.setswana: 'Bothata jwa netweke. Tlhola kgolagano ya gago o leke gape',
+    AppLanguage.setswana:
+        'Bothata jwa netweke. Tlhola kgolagano ya gago o leke gape',
   },
   'error_auth_unknown': {
     AppLanguage.english: 'Sign in failed. Please try again',
@@ -2717,10 +2665,7 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Add Stage',
     AppLanguage.setswana: 'Tsenya Legato',
   },
-  'loss_cause': {
-    AppLanguage.english: 'Cause',
-    AppLanguage.setswana: 'Lebaka',
-  },
+  'loss_cause': {AppLanguage.english: 'Cause', AppLanguage.setswana: 'Lebaka'},
   'view_details': {
     AppLanguage.english: 'View Details',
     AppLanguage.setswana: 'Bona Dintlha',
@@ -2737,18 +2682,12 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Cereals',
     AppLanguage.setswana: 'Dijo tsa Mabele',
   },
-  'legumes': {
-    AppLanguage.english: 'Legumes',
-    AppLanguage.setswana: 'Dinawa',
-  },
+  'legumes': {AppLanguage.english: 'Legumes', AppLanguage.setswana: 'Dinawa'},
   'roots_tubers': {
     AppLanguage.english: 'Roots & Tubers',
     AppLanguage.setswana: 'Medi le Diknopi',
   },
-  'severity': {
-    AppLanguage.english: 'Severity',
-    AppLanguage.setswana: 'Bogolo',
-  },
+  'severity': {AppLanguage.english: 'Severity', AppLanguage.setswana: 'Bogolo'},
   'total_harvest': {
     AppLanguage.english: 'Total Harvest',
     AppLanguage.setswana: 'Thobo Yotlhe',
@@ -2765,7 +2704,8 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   },
   'password_too_short': {
     AppLanguage.english: 'Password must be at least 6 characters',
-    AppLanguage.setswana: 'Phasewete e tshwanetse go nna le dikgatiso tse 6 bonyane',
+    AppLanguage.setswana:
+        'Phasewete e tshwanetse go nna le dikgatiso tse 6 bonyane',
   },
   'number_invalid': {
     AppLanguage.english: 'Enter a valid number',
@@ -2790,6 +2730,68 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   'village_too_long': {
     AppLanguage.english: 'Village name is too long',
     AppLanguage.setswana: 'Leina la motse le le telele thata',
+  },
+
+  // Orders screen
+  'my_orders': {
+    AppLanguage.english: 'My Orders',
+    AppLanguage.setswana: 'Di-Otara Tsa Me',
+  },
+  'sales': {
+    AppLanguage.english: 'Sales',
+    AppLanguage.setswana: 'Dithekiso',
+  },
+  'my_requests': {
+    AppLanguage.english: 'My Requests',
+    AppLanguage.setswana: 'Dikopo Tsa Me',
+  },
+  'no_purchase_requests': {
+    AppLanguage.english: 'No purchase requests',
+    AppLanguage.setswana: 'Ga go na dikopo tsa go reka',
+  },
+  'purchase_requests_appear_here': {
+    AppLanguage.english: 'Purchase requests will appear here',
+    AppLanguage.setswana: 'Dikopo tsa go reka di tla bonala fa',
+  },
+  'no_orders_yet': {
+    AppLanguage.english: 'No sales yet',
+    AppLanguage.setswana: 'Ga go na dithekiso',
+  },
+  'orders_will_appear_here': {
+    AppLanguage.english: 'Orders from buyers will appear here',
+    AppLanguage.setswana: 'Di-otara tsa bareki di tla bonala fa',
+  },
+
+  // Inventory / image upload
+  'photos_optional_hint': {
+    AppLanguage.english: 'Add up to 5 photos (optional)',
+    AppLanguage.setswana: 'Oketsa go fitlha setshwantsho se 5 (ga se tlhokego)',
+  },
+  'add_image_slot': {
+    AppLanguage.english: 'Add photo',
+    AppLanguage.setswana: 'Oketsa setshwantsho',
+  },
+  'at_least_one_image_required': {
+    AppLanguage.english: 'At least one photo is required',
+    AppLanguage.setswana: 'Setshwantsho se sengwe se tlhokega',
+  },
+  'error_upload_failed': {
+    AppLanguage.english: 'Upload failed. Please try again.',
+    AppLanguage.setswana: 'Go romela go paletswe. Leka gape.',
+  },
+
+  // Marketplace / Add Product
+  'contact_phone': {
+    AppLanguage.english: 'Contact Phone',
+    AppLanguage.setswana: 'Nomoro ya Mogala',
+  },
+  'phone_required_for_listing': {
+    AppLanguage.english: 'Phone number is required for listings',
+    AppLanguage.setswana: 'Nomoro ya mogala e tlhokega go rekisa',
+  },
+  'request_to_buy': {
+    AppLanguage.english: 'Request to Buy',
+    AppLanguage.setswana: 'Kopa go Reka',
   },
 };
 
