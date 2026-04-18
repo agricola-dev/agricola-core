@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.3 — 2026-04-18
+
+### Changed
+- `AuthRepository.signInWithGoogle` now accepts an optional `createIfNew` flag (default `true`). When `false`, the method will not create a Firestore document for a new user and returns a `userNotFound` failure instead, allowing the caller to redirect to registration.
+
 ## 1.1.2 — 2026-04-18
 
 ### Fixed

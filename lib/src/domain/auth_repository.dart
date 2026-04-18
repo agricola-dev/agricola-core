@@ -25,6 +25,7 @@ abstract class AuthRepository {
   Future<Either<AuthFailure, UserModel>> signInWithGoogle({
     required UserType userType,
     MerchantType? merchantType,
+    bool createIfNew = true,
   });
 
   Future<Either<AuthFailure, void>> signOut();
