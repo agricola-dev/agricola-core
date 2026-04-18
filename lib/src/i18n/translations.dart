@@ -578,6 +578,34 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Get insights on your farm',
     AppLanguage.setswana: 'Bona tlhaloganyo ya polasi ya gago',
   },
+  'marketplace_farmer_feature_desc': {
+    AppLanguage.english: 'List your harvest and reach buyers directly',
+    AppLanguage.setswana: 'Baakanya thobo ya gago o fitlhelele bareki',
+  },
+  'source_from_farmers': {
+    AppLanguage.english: 'Source From Farmers',
+    AppLanguage.setswana: 'Tsaya Go Tswa Go Balemi',
+  },
+  'source_from_farmers_desc': {
+    AppLanguage.english: 'Browse available and upcoming harvests near you',
+    AppLanguage.setswana: 'Bona dithobo tse di leng teng le tse di etlang gaufi le gago',
+  },
+  'manage_orders': {
+    AppLanguage.english: 'Manage Orders',
+    AppLanguage.setswana: 'Laola Diodara',
+  },
+  'manage_orders_desc': {
+    AppLanguage.english: 'Track and fulfill orders from buyers',
+    AppLanguage.setswana: 'Latela le go phethela diodara go tswa go bareki',
+  },
+  'list_products': {
+    AppLanguage.english: 'List Products',
+    AppLanguage.setswana: 'Baakanya Dithoto',
+  },
+  'list_products_desc': {
+    AppLanguage.english: 'Post your products on the marketplace',
+    AppLanguage.setswana: 'Bika dithoto tsa gago mo mmarakeng',
+  },
   'add_new_crop': {
     AppLanguage.english: 'Add New Crop',
     AppLanguage.setswana: 'Tsenya Sejalo',
@@ -854,7 +882,7 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.setswana: 'Di-Hectare',
   },
   'metres': {AppLanguage.english: 'Metres', AppLanguage.setswana: 'Dimithara'},
-  'kg': {AppLanguage.english: 'Kilograms', AppLanguage.setswana: 'Dikilogram'},
+  'kg': {AppLanguage.english: 'kg', AppLanguage.setswana: 'kg'},
   'bags': {AppLanguage.english: 'Bags', AppLanguage.setswana: 'Mekotla'},
   'tons': {AppLanguage.english: 'Tons', AppLanguage.setswana: 'Ditone'},
   // Storage Methods
@@ -2344,6 +2372,14 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Unit Price',
     AppLanguage.setswana: 'Tlhwatlhwa ya Sengwe',
   },
+  'enter_unit_price': {
+    AppLanguage.english: 'e.g. 5.00 per kg',
+    AppLanguage.setswana: 'moono: 5.00 ka kg',
+  },
+  'price_invalid': {
+    AppLanguage.english: 'Enter a valid price',
+    AppLanguage.setswana: 'Tsenisa tlhwatlhwa e e siameng',
+  },
   'line_total': {
     AppLanguage.english: 'Line Total',
     AppLanguage.setswana: 'Paloyotlhe ya Mola',
@@ -2836,6 +2872,52 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
   'specify_storage_method': {
     AppLanguage.english: 'Describe your storage method',
     AppLanguage.setswana: 'Tlhalosa mokgwa wa go boloka',
+  },
+
+  // Crop Availability
+  'crop_availability': {
+    AppLanguage.english: 'Crop Availability',
+    AppLanguage.setswana: 'Dijalo tse di Leng Teng',
+  },
+  'available_now': {
+    AppLanguage.english: 'Available Now',
+    AppLanguage.setswana: 'Di Teng Jaanong',
+  },
+  'in_2_weeks': {
+    AppLanguage.english: 'In 2 Weeks',
+    AppLanguage.setswana: 'Mo Dikgetheng tse 2',
+  },
+  'in_4_weeks': {
+    AppLanguage.english: 'In 4 Weeks',
+    AppLanguage.setswana: 'Mo Dikgetheng tse 4',
+  },
+  'in_6_weeks': {
+    AppLanguage.english: 'In 6 Weeks',
+    AppLanguage.setswana: 'Mo Dikgetheng tse 6',
+  },
+  'no_crops_in_window': {
+    AppLanguage.english: 'No crops in this window',
+    AppLanguage.setswana: 'Ga go na dijalo mo nako eno',
+  },
+  'check_other_windows': {
+    AppLanguage.english: 'Try checking the other availability tabs',
+    AppLanguage.setswana: 'Leka go bona ditafole tse dingwe',
+  },
+  'days': {
+    AppLanguage.english: 'days',
+    AppLanguage.setswana: 'matsatsi',
+  },
+  'tomorrow': {
+    AppLanguage.english: 'Tomorrow',
+    AppLanguage.setswana: 'Keboa',
+  },
+  'estimated': {
+    AppLanguage.english: 'Estimated',
+    AppLanguage.setswana: 'Go Akanyediwa',
+  },
+  'error_loading_data': {
+    AppLanguage.english: 'Failed to load data',
+    AppLanguage.setswana: 'Go paletswe go laola data',
   },
 };
 
