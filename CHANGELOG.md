@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.2 — 2026-04-18
+
+### Fixed
+- `imageUrlForCrop` now returns `''` (empty string) instead of a hardcoded Unsplash fallback URL when no image is available for a crop. Prevents stale Unsplash URLs from causing 404 crashes.
+
 ## 1.1.1 — 2026-04-17
 
 ### Added
