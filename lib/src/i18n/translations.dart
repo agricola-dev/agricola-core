@@ -2405,13 +2405,31 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'Confirm Order',
     AppLanguage.setswana: 'Netefatsa Otara',
   },
+  'confirm_order_confirm': {
+    AppLanguage.english:
+        'Are you sure you want to confirm this order? The buyer will be notified.',
+    AppLanguage.setswana:
+        'A o netefatsa go netefatsa otara eno? Mmegi o tla kediwa.',
+  },
   'ship_order': {
     AppLanguage.english: 'Ship Order',
     AppLanguage.setswana: 'Romela Otara',
   },
+  'ship_order_confirm': {
+    AppLanguage.english:
+        'Mark this order as shipped? The buyer will be notified it\'s on its way.',
+    AppLanguage.setswana:
+        'Swaya otara eno e rometswe? Mmegi o tla kediwa gore e mo tseleng.',
+  },
   'mark_delivered': {
     AppLanguage.english: 'Mark Delivered',
     AppLanguage.setswana: 'Swaya e Fitlhile',
+  },
+  'mark_delivered_confirm': {
+    AppLanguage.english:
+        'Mark this order as delivered? This completes the transaction.',
+    AppLanguage.setswana:
+        'Swaya otara eno e fitlhile? Seno se tsweletsa kgwebo.',
   },
   'cancel_order': {
     AppLanguage.english: 'Cancel Order',
