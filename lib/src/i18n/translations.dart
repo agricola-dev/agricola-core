@@ -2895,6 +2895,30 @@ final Map<String, Map<AppLanguage, String>> _localizedStrings = {
     AppLanguage.english: 'In 6 Weeks',
     AppLanguage.setswana: 'Mo Dikgetheng tse 6',
   },
+  'in_8_weeks': {
+    AppLanguage.english: 'In 8 Weeks',
+    AppLanguage.setswana: 'Mo Dikgetheng tse 8',
+  },
+  'market_saturation': {
+    AppLanguage.english: 'Market Supply',
+    AppLanguage.setswana: 'Thotloetso ya Mmaraka',
+  },
+  'saturated_supply': {
+    AppLanguage.english: 'High supply',
+    AppLanguage.setswana: 'Thotloetso e kgolo',
+  },
+  'moderate_supply': {
+    AppLanguage.english: 'Healthy supply',
+    AppLanguage.setswana: 'Thotloetso e e siameng',
+  },
+  'low_supply': {
+    AppLanguage.english: 'Low supply',
+    AppLanguage.setswana: 'Thotloetso e nnye',
+  },
+  'farmers_count': {
+    AppLanguage.english: 'farmers',
+    AppLanguage.setswana: 'balemi',
+  },
   'no_crops_in_window': {
     AppLanguage.english: 'No crops in this window',
     AppLanguage.setswana: 'Ga go na dijalo mo nako eno',
